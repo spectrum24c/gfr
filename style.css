@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body{
+background: linear-gradient(
+  to right, #c81913, #b64613, #ab6012);
+  background-size: 400% 400%;
+  animation: animate-background 10s infinite ease-in-out;
+  
+}
+
+@keyframes animate-background {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
